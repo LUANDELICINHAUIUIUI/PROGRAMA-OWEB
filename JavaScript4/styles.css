@@ -1,0 +1,25 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #f0f0f0;
+}
+h1{
+    font-size: 38px;
+    font-weight: bold;
+}
+input{
+    padding: 8px;
+    margin: 8px;
+    font-size: 13px;
+}
+button{
+    padding: 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+#resultado{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}

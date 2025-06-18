@@ -1,0 +1,33 @@
+*{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+#cyan{
+    font-size: 20px;
+    background-color: cyan;  
+    padding: 5px 15px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#purple{
+    font-size: 20px;
+    background-color: purple;  
+    padding: 5px 15px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#pink{
+    font-size: 20px;
+    background-color: pink;  
+    padding: 5px 15px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

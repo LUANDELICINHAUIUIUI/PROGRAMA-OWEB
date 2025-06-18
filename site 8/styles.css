@@ -1,0 +1,45 @@
+*{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: sans-serif;
+}
+header{
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+main{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: stretch;
+}
+.t1{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(25% - 20px);
+    background-color: bisque;
+    color: black;
+    min-width: 120px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border: solid bisque;
+    align-items: center;
+}
+footer{
+    color: black;
+    background-color: bisque;
+    padding: 15px;
+}

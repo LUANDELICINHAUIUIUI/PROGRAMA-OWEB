@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    text-align: center;
+    background-color: black;
+}
+.container2{
+    display: grid;
+    height: 280px;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+.item1{
+    color: black;
+    background-color: rgb(250, 167, 64);
+    border-radius: 10px;
+}
+.item2{
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 166, 255);
+    border-radius: 10px;
+}
+.container2{
+    display: grid;
+}
+.item3{
+    color: rgb(0, 0, 0);
+    background-color: rgb(190, 30, 30);
+    border-radius: 10px;
+    height:770px;
+}

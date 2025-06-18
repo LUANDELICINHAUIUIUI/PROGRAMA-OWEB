@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+    color: white;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(8, 80px);
+    border: 5px solid black;
+    background-color: black;
+    box-shadow: rgba(205, 202, 202, 0.673) 7px 7px;
+}
+
+.grid-container>div{
+    padding: 40px;
+}
+
+.preto{
+    background-color: black;
+}
+
+.branco{
+    background-color: white;
+}
